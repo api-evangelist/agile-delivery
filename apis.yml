@@ -1,16 +1,22 @@
+aid: agile-delivery
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/agile-delivery/refs/heads/main/apis.yml
 name: Agile Delivery
-description: An iterative approach to project management and software development
-  that helps teams deliver value to customers faster and with fewer headaches through
-  collaboration, adaptability, and continuous improvement. It is widely used by developers
-  to build, maintain, and scale software applications efficiently.
-url: https://www.atlassian.com/agile
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Agile
-- Project Management
-- Software Development
-- Iterative Development
-- Continuous Improvement
-created: '2025'
-modified: '2025'
+  - Agile
+  - Project Management
+  - Software Development
+  - Iterative Development
+description: >-
+  An iterative approach to project management and software development that
+  helps teams deliver value to customers faster through collaboration,
+  adaptability, and continuous improvement.
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
