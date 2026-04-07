@@ -6,9 +6,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Agile
+  - Iterative Development
   - Project Management
   - Software Development
-  - Iterative Development
 description: >-
   An iterative approach to project management and software development that
   helps teams deliver value to customers faster through collaboration,
