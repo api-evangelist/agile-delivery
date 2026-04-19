@@ -1,0 +1,9 @@
+{
+  "id": "sprint-42",
+  "name": "Sprint 42 - Q2 Launch",
+  "goal": "Deliver user authentication feature",
+  "start_date": "2026-04-14",
+  "end_date": "2026-04-28",
+  "velocity": 34,
+  "status": "active"
+}

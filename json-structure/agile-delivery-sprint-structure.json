@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/agile-delivery/refs/heads/main/json-structure/agile-delivery-sprint-structure.json",
+  "name": "Sprint",
+  "description": "A time-boxed iteration in agile delivery during which a team completes a set of planned work items.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the sprint.",
+      "example": "sprint-42"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the sprint.",
+      "example": "Sprint 42 - Q2 Launch"
+    },
+    "goal": {
+      "type": "string",
+      "description": "The sprint goal agreed on during sprint planning.",
+      "example": "Deliver user authentication feature"
+    },
+    "start_date": {
+      "type": "date",
+      "description": "Sprint start date.",
+      "example": "2026-04-14"
+    },
+    "end_date": {
+      "type": "date",
+      "description": "Sprint end date.",
+      "example": "2026-04-28"
+    },
+    "velocity": {
+      "type": "int32",
+      "description": "Story points completed in the sprint.",
+      "example": 34
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planning",
+        "active",
+        "review",
+        "closed"
+      ],
+      "example": "active"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "start_date",
+    "end_date"
+  ]
+}

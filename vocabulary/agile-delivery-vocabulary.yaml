@@ -1,0 +1,40 @@
+vocabulary: "1.0.0"
+info:
+  provider: Agile Delivery
+  description: Vocabulary for agile delivery practices including sprint management, backlog, and delivery metrics.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  resources:
+    - name: sprints
+      description: Time-boxed iterations in agile delivery
+      actions: [plan, start, review, close]
+    - name: backlogs
+      description: Prioritized lists of work items for delivery teams
+      actions: [create, prioritize, refine, estimate]
+    - name: delivery-metrics
+      description: Velocity, cycle time, and burndown data for agile teams
+      actions: [get, aggregate]
+  schemas:
+    core:
+      - name: Sprint
+        description: A time-boxed delivery iteration
+        properties: [id, name, goal, start_date, end_date, velocity, status]
+  enums:
+    sprint_status: [planning, active, review, closed]
+capability:
+  workflows:
+    - name: Sprint Execution
+      description: Plan and execute a sprint from backlog to delivery
+      personas: [Scrum Master, Developer]
+      domains: [Agile Delivery]
+  personas:
+    - id: scrum-master
+      name: Scrum Master
+      description: Facilitates agile ceremonies and removes impediments
+    - id: developer
+      name: Developer
+      description: Delivers working software within sprint cycles
+  domains:
+    - name: Agile Delivery
+      description: Iterative delivery of software value through sprint cycles
