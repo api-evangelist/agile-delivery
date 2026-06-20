@@ -6,7 +6,7 @@ description: A collection of resources, tools, and APIs related to agile deliver
 url: https://raw.githubusercontent.com/api-evangelist/agile-delivery/refs/heads/main/apis.yml
 humanURL: https://agilealliance.org/
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Agile
 - Iterative Development
