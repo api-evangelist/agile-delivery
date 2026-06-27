@@ -57,7 +57,7 @@ common:
     description: Microsoft's agile planning tool with APIs for work items, sprints, and delivery pipelines.
   - name: Trello
     description: Visual Kanban-based project management tool with APIs for cards, lists, and boards.
-- type: LLMsTxt
+- type: LlmsText
   url: https://agilealliance.org/llms.txt
 maintainers:
 - FN: Kin Lane
