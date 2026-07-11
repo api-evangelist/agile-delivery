@@ -19,6 +19,8 @@ modified: '2026-04-19'
 specificationVersion: '0.19'
 apis: []
 common:
+- type: DomainSecurity
+  url: security/agile-delivery-domain-security.yml
 - type: Portal
   url: https://agilealliance.org/
 - type: GitHubOrganization
@@ -59,6 +61,8 @@ common:
     description: Visual Kanban-based project management tool with APIs for cards, lists, and boards.
 - type: LlmsText
   url: https://agilealliance.org/llms.txt
+- type: Blog
+  url: https://agilealliance.org/feed/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
